@@ -2,7 +2,7 @@
 # make        # compile all binary
 # make clean  # remove ALL binaries and objects
 
-.PHONY = all clean
+.PHONY: all clean
 
 CC = gcc
 # Variable assignment
