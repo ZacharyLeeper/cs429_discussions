@@ -19,7 +19,7 @@ hello: hello.o func.o
 hello.o: hello.c hello.h
 	$(CC) $(CFLAGS) -c hello.c
 
-func.o: func.c
+func.o: func.c hello.h
 	$(CC) $(CFLAGS) -c func.c
 
 clean:
